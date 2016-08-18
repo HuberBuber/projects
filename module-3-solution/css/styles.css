@@ -1,0 +1,92 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #ABD2A1;
+  background-image: linear-gradient(to bottom, #0B1A33, #182840);
+  font-family: 'Cabin', Arial, sans-serif;
+}
+h1, h2{
+	margin: 0;
+	padding: 0;
+}
+
+/***HEADER***/
+#header-nav{
+	background-color: #ABC7C2;
+	border-radius: 0;
+  	border:0;
+}
+.navbar-brand{
+	height: 100px;
+	padding-top: 30px;
+	padding-left: 30px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand h1 {
+	font-size: 2em;
+	font-weight: bold;
+	color: #135D65;
+}
+.navbar-toggle{
+	margin-top: 30px;
+	margin-right: 25px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #135D65;
+}
+#collapsable-nav a { 
+    font-size: 1.3em;
+ }
+#nav-list a{
+	font-weight: bold;
+	text-align: center;
+	color: #135D65;
+}
+#nav-list li a:hover, .nav-list li a:active{
+	font-weight: bold;
+	color: #fff;
+	background-color: #0B1A33;
+}
+#content h2 {
+	font-size: 1.9em;
+	color: #fff;
+	margin:20px 0px 40px 0;
+}
+.section{
+	background-color: #135D65;
+	padding: 20px;
+	border-radius: 20px;
+	box-shadow: 0 0 40px #DEDEDE;
+	margin-bottom: 40px;
+}
+.title-name {
+	font-size: 1.3em;
+	font-weight: bold;
+	text-align: center;
+}
+@media (min-width: 768px){
+	#nav-list{
+		display: none;
+	}
+}
+@media (max-width: 767px) {
+  	body{
+  		font-size: 13px;
+	}
+	.navbar-brand {
+	    height: 70px;
+	}
+	.navbar-brand h1 { 
+		font-size: 1.8em;
+	}
+	 #content h2 {
+	  	margin: 10px 0 30px 0;
+	}
+	.text{
+		line-height: 1.6;
+	}
+}
+
+  
